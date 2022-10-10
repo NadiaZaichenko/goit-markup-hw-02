@@ -20,6 +20,7 @@ body {
 }
 .btn {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 /*HEADER*/
 .logo {
@@ -72,7 +73,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #757575;
 }
 /*MAIN STUDIO*/
 .aside {
@@ -111,6 +112,20 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.job-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 .desc-text {
     font-size: 14px;
@@ -157,7 +172,10 @@ color: #212121;
     text-decoration: none;
 }
 .footer {
-    background-color: #2F303A;;
+    background-color: #2F303A;
+}
+.last-part-footer {
+    color: #FFFFFF;
 }
 
 .address-city {
